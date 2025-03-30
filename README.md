@@ -1,4 +1,4 @@
-## Hi I'm Ben, Welcome to my Resume site repo
+## Hi I'm Ben, welcome to my resume site repo
 
 ## Available Scripts
 
