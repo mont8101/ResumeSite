@@ -11,7 +11,7 @@ function App() {
       <div className="w-full flex flex-row justify-center mb-32">
         <Nav></Nav>        
       </div>
-      <div className='mb-32 flex justify-center'>
+      <div className='mb-20 flex justify-center'>
         <Hero></Hero>
       </div>
       <div className='mb-10 flex justify-center' >

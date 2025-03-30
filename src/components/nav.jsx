@@ -1,16 +1,18 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 export default function Nav() {
+    const [open, setOpen] = useState(); 
+
     const scrollToSection = (id) => {
         const element = document.getElementById(id);
         if (element) {
-            const yOffset = -80; // Adjust this value based on your fixed header height
+            const yOffset = -90; // Adjust this value based on your fixed header height
             const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
             window.scrollTo({ top: y, behavior: "smooth" });
         }
     };
-    function click(){
-        console.log("hit the navs")
+    function toggleNav(){    
+        setOpen(!open);
     }
 
 
@@ -26,11 +28,29 @@ return(
                 </div>
             </div>
             <div className="flex md:order-2 space-x-3 md:space-x-0">
-                    <button type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600">
+                    <button type="button" onClick={(() => toggleNav())} className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm  rounded-lg md:hidden focus:outline-none focus:ring-2  text-gray-400 hover:bg-gray-700 focus:ring-gray-600">
                     <span className="sr-only">Open main menu</span>
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="size-6">
                         <path fillRule="evenodd" d="M3 6.75A.75.75 0 0 1 3.75 6h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 6.75ZM3 12a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75A.75.75 0 0 1 3 12Zm0 5.25a.75.75 0 0 1 .75-.75h16.5a.75.75 0 0 1 0 1.5H3.75a.75.75 0 0 1-.75-.75Z" clipRule="evenodd" />
                     </svg>
+                </button>
+            </div>
+            <div className={`w-full md:hidden text-white
+                            ${open ? 'flex flex-col' : 'hidden'}`}>
+                <button onClick={() => {scrollToSection("About"), toggleNav()}} className='text-end'>
+                    <span className="py-2.5 transition-all ease-in duration-75 rounded-md">
+                        About
+                    </span>
+                </button>
+                <button onClick={() => {scrollToSection("Projects"), toggleNav()}} className='text-end'>
+                    <span className="py-2.5 transition-all ease-in duration-75 rounded-md ">
+                        Project Summary
+                    </span>
+                </button>
+                <button onClick={() => {scrollToSection("Contact"), toggleNav()}} className='text-end'>
+                    <span className="py-2.5 transition-all ease-in duration-75 rounded-md">
+                    Contact
+                    </span>
                 </button>
             </div>
             <div className="items-center justify-between hidden w-full md:flex md:w-auto md:order-1">

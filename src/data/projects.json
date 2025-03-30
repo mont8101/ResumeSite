@@ -2,28 +2,28 @@
     "projects": [
         {
             "title": "Fishbowl CMBox",
-            "skills": ["Astro", "Svelte", "Typescript", "Tailwind CSS", "GraphQL", "Redis", " GPT", "Express"],
-            "description": "This modern full-stack project was designed to create an asset management platform for storing curated content items and a site builder for displaying content on user-created websites. The solution utilized cutting-edge technologies, including Astro, Svelte, Tailwind, GraphQL, and Redis, to deliver a powerful and user-friendly experience.",
+            "skills": ["Full-Stack", "Astro", "Svelte", "Typescript", "Tailwind CSS", "GraphQL", "Node", "Docker", "Redis", "GPT", "RAG", "Express", "UX Design", "API Design"],
+            "description": "Developing an asset management platform for storing curated content and a flexible site builder for creating and displaying user-generated websites. Designed for performance and ease of use, the solution optimized content delivery while enabling seamless site customization.",
             "blog": "https://fishbowlsolutions.com/category/cm-box/"
         },
         {
-            "title": "React based site for a State Government entity",
-            "skills": ["React", "Knockout", "Bootstrap", "GraphQL", "REST API"],
-            "description": "This project involved developing and enhancing a React-based website designed to support local businesses in collaboration with a state government. The solution leveraged React, Knockout, Bootstrap, GraphQL, and REST APIs to deliver a user-friendly and accessible platform."
+            "title": "React based site for a State Government Entity",
+            "skills": ["Front-end", "React", "Knockout", "Bootstrap", "GraphQL", "REST API", "Figma"],
+            "description": "Developed and enhanced a website in collaboration with a state government to support local businesses. The platform was designed for accessibility and ease of use, providing a seamless experience for users while integrating dynamic content and robust data retrieval."
         },
         {
-            "title": "Website Enhancements for a City Government entity",
-            "skills": ["Java", "JavaScript ", "Oracle Database", "HTML"],
-            "description": "This project involved working on a municipal website that allows residents to apply for electric services in their city. Tasks were assigned via Azure and ranged from minor updates, such as correcting grammatical errors, to more complex changes, like adding new options to the application form."
+            "title": "Application Enhancements for a City Government Entity",
+            "skills": ["Full-Stack", "Java", "JavaScript ", "Oracle Database", "HTML", "Azure"],
+            "description": "Enhanced a municipal website that enables residents to apply for electric services, streamlining the application process for both users and city employees. Tasks included refining the user experience, implementing new form options to enhance submissions, and optimizing backend processes to improve workflow efficiency."
         },
         {
-            "title": "React based site for a marketing company ",
-            "skills": ["React", "SCSS", "GraphQL"],
-            "description": "This project involved building a React-based website for a marketing company, leveraging SCSS and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users."
+            "title": "React based site for a Marketing Company ",
+            "skills": ["Front-end", "React", "SCSS", "GraphQL"],
+            "description": "Creating a React-based website for a marketing company, leveraging SCSS and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users."
         },
         {
             "title": "Document Migration for a Tool Manufacturing Company",
-            "skills": ["Java", "Microsoft SQL Server"],
+            "skills": ["Back-end", "Java", "Microsoft SQL Server", "Azure SSO"],
             "description": "This project involved designing and implementing a backend solution to migrate and organize archived documents for a tool manufacturing company. The goal was to transition files from an outdated system to a new Oracle WebCenter Content instance while optimizing the import and sorting process."
         }
     ]
