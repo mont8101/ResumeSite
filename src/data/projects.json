@@ -19,12 +19,12 @@
         {
             "title": "React based site for a Marketing Company ",
             "skills": ["Front-end", "React", "SCSS", "GraphQL"],
-            "description": "Creating a React-based website for a marketing company, leveraging SCSS and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users."
+            "description": "Creating a website for a marketing company, leveraging SCSS and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users."
         },
         {
             "title": "Document Migration for a Tool Manufacturing Company",
-            "skills": ["Back-end", "Java", "Microsoft SQL Server", "Azure SSO"],
-            "description": "This project involved designing and implementing a backend solution to migrate and organize archived documents for a tool manufacturing company. The goal was to transition files from an outdated system to a new Oracle WebCenter Content instance while optimizing the import and sorting process."
+            "skills": ["Back-end", "Java", "Microsoft SQL Server", "Cloud SSO Configuration"],
+            "description": "This project involved designing and implementing a backend solution to migrate and organize archived documents for a tool manufacturing company. The goal was to transition files from an outdated system to a new Oracle WebCenter Content instance while optimizing the import and sorting process. Set up single sign on with Microsoft Entra"
         }
     ]
 }
