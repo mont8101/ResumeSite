@@ -1,3 +1,5 @@
+## Hi I'm Ben, Welcome to my Resume site repo
+
 ## Available Scripts
 
 In the project directory, you can run:
