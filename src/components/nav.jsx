@@ -42,6 +42,16 @@ return(
                         About
                     </span>
                 </button>
+                <button onClick={() => {scrollToSection("Skills"), toggleNav()}} className='text-end'>
+                    <span className="py-2.5 transition-all ease-in duration-75 rounded-md ">
+                        Skills
+                    </span>
+                </button>
+                <button onClick={() => {scrollToSection("Certs"), toggleNav()}} className='text-end'>
+                    <span className="py-2.5 transition-all ease-in duration-75 rounded-md ">
+                        Certifications
+                    </span>
+                </button>
                 <button onClick={() => {scrollToSection("Projects"), toggleNav()}} className='text-end'>
                     <span className="py-2.5 transition-all ease-in duration-75 rounded-md ">
                         Project Summary
@@ -59,6 +69,16 @@ return(
                         About
                     </span>
                 </button> 
+                <button onClick={() => scrollToSection("Skills")} className="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-blue-500 to-cyan-500 group-hover:from-blue-500 group-hover:to-cyan-500 text-white focus:ring-4 focus:outline-none focus:ring-cyan-800">
+                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-950 rounded-md group-hover:bg-transparent">
+                        Skills
+                    </span>
+                </button>
+                <button onClick={() => scrollToSection("Certs")} className="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-blue-500 to-cyan-500 group-hover:from-blue-500 group-hover:to-cyan-500 text-white focus:ring-4 focus:outline-none focus:ring-cyan-800">
+                    <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-950 rounded-md group-hover:bg-transparent">
+                        Certifications
+                    </span>
+                </button>
                 <button onClick={() => scrollToSection("Projects")} className="relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium rounded-lg group bg-gradient-to-br from-blue-500 to-cyan-500 group-hover:from-blue-500 group-hover:to-cyan-500 text-white focus:ring-4 focus:outline-none focus:ring-cyan-800">
                     <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-gray-950 rounded-md group-hover:bg-transparent">
                         Project Summary

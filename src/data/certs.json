@@ -1,0 +1,11 @@
+{
+    "certs":[
+        {
+            "title":"Oracle Cloud Infrastructure 2024 Generative AI Professional",
+            "skills": ["Large Language Models", "Vector Databases", "Python", "LangChain", "AI", "Machine Learning", "Oracle Cloud"],
+            "link": "https://catalog-education.oracle.com/ords/certview/sharebadge?id=5E2BD826E38F5C6CFB1639491DED26058997EA129E35A5AD256AB8C75CEE3BA1",
+            "linkText":"Certification",
+            "description": "The Oracle Cloud Infrastructure 2024 Generative AI Professional certification is designed for Software Developers, Machine Learning/AI Engineers, and Gen AI Professionals. The prerequisite for this course includes a basic understanding of Machine Learning and Deep Learning concepts and experience with Python language. Individuals who earn this credential have a strong understanding of the Large Language Models (LLMs) and are skilled at using OCI Generative AI Service. They are also familiar with techniques such as Retrieval-Augmented Generation, Semantic Search, Vector database, and LangChain, to build, trace, evaluate, and deploy LLM applications."
+        }
+    ]
+}

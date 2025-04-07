@@ -1,0 +1,60 @@
+{
+    "languages": [
+        "Javascript",
+        "Typescript",
+        "Java",
+        "Python",
+        "C++",
+        "PHP",
+        "C"
+    ],
+    "frameworks": [
+        "React",
+        "Svelte",
+        "Astro",
+        "Next",
+        "Express",
+        "Spring boot",
+        "LangChain"
+    ],
+    "css":[
+        "SCSS",
+        "Tailwind",
+        "Bootstrap"
+    ],
+    "db": [
+        "Microsoft SQL",
+        "MySQL",
+        "Oracle",
+        "Postgres"
+    ],
+    "nosql": [
+        "Redis",
+        "GraphQL",
+        "Mongo"
+    ],
+    "ai": [
+        "OpenAI",
+        "Azure",
+        "Claude",
+        "Cohere"
+    ],
+    "cloud":[
+        "Azure",
+        "Oracle",
+        "Github",
+        "Gitlab"
+    ],
+    "other": [
+        "Node",
+        "Vite",
+        "RestAPI",
+        "Apollo",
+        "Jest",
+        "Docker",
+        "Postman",
+        "Jira",
+        "Assana",
+        "BullMQ"
+    ]
+}

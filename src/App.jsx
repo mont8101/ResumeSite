@@ -2,6 +2,8 @@ import './App.css';
 import Nav from './components/nav.jsx';
 import About from './components/about.jsx'
 import Projects from './components/projects.jsx';
+import Skills from './components/skills.jsx';
+import Certs from './components/certs.jsx';
 import Hero from './components/hero.jsx';
 import Footer from './components/footer.jsx';
 
@@ -16,6 +18,12 @@ function App() {
       </div>
       <div className='mb-10 flex justify-center' >
         <About></About>
+      </div>
+      <div className='mb-10 flex justify-center' >
+        <Skills></Skills>
+      </div>
+      <div className='mb-10 flex justify-center' >
+        <Certs></Certs>
       </div>
       <div className='mb-10 flex justify-center'>
         <Projects></Projects>

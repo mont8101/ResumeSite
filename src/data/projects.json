@@ -4,27 +4,112 @@
             "title": "Fishbowl CMBox",
             "skills": ["Full-Stack", "Astro", "Svelte", "Typescript", "Tailwind CSS", "GraphQL", "Node", "Docker", "Redis", "GPT", "RAG", "Express", "UX Design", "API Design"],
             "description": "Developing an asset management platform for storing curated content and a flexible site builder for creating and displaying user-generated websites. Designed for performance and ease of use, the solution optimized content delivery while enabling seamless site customization.",
-            "blog": "https://fishbowlsolutions.com/category/cm-box/"
+            "details":[
+                {
+                    "head":"UI Architecture",
+                    "desc": "Designed an intuitive user interface with Astro, Svelte, and Tailwind to enhance the OCM workflow, incorporating client-requested features to improve usability and functionality."
+                },
+                {
+                    "head":"API Development",
+                    "desc": "Created new APIs to integrate with front-end components to deliver curated JSON objects resulting in improved data retrieval performance."
+                },
+                {
+                    "head": "AI Integration",
+                    "desc": "Developed an RAG (Retrieval-Augmented Generation) AI assistant using OpenAI, Azure, and Redis, resulting in a chatbot capable of answering user queries and reducing content search time by up to 70%."
+                }
+            ],
+            "blog": "https://fishbowlsolutions.com/category/cm-box/",
+            "linkText": "Fishbowl Blog"
         },
         {
             "title": "React based site for a State Government Entity",
             "skills": ["Front-end", "React", "Knockout", "Bootstrap", "GraphQL", "REST API", "Figma"],
-            "description": "Developed and enhanced a website in collaboration with a state government to support local businesses. The platform was designed for accessibility and ease of use, providing a seamless experience for users while integrating dynamic content and robust data retrieval."
+            "description": "Developed and enhanced a website in collaboration with a state government to support local businesses. The platform was designed for accessibility and ease of use, providing a seamless experience for users while integrating dynamic content and robust data retrieval.",
+            "details":[
+                {
+                    "head": "Dynamic Component Refactoring",
+                    "desc": "Refactored repetitive components into flexible, dynamic React solutions, allowing for unique page layouts and significantly improving usability and accessibility."
+                },
+                {
+                    "head": "Performance Optimization", 
+                    "desc": "Utilized Oracle render APIs to statically compile site content, resulting in faster load times and improved overall performance."},
+                {
+                    "head": "Accessibility Compliance", 
+                    "desc": "Collaborated with an ADA compliance officer and design team to ensure all components met ADA standards, creating an inclusive and pleasant experience for all users."},
+                {
+                    "head": "Production Support:", 
+                    "desc": "Provided on-call monitoring and ensured smooth deployment of the codebase, maintaining a reliable and stable production environment."
+                }
+            ]
         },
         {
             "title": "Application Enhancements for a City Government Entity",
-            "skills": ["Full-Stack", "Java", "JavaScript ", "Oracle Database", "HTML", "Azure"],
-            "description": "Enhanced a municipal website that enables residents to apply for electric services, streamlining the application process for both users and city employees. Tasks included refining the user experience, implementing new form options to enhance submissions, and optimizing backend processes to improve workflow efficiency."
+            "skills": ["Full-Stack", "Java", "Spring Boot", "JavaScript ", "Oracle Database", "HTML", "Azure"],
+            "description": "Enhanced a municipal website that enables residents to apply for electric services, streamlining the application process for both users and city employees. Tasks included refining the user experience, implementing new form options to enhance submissions, and optimizing backend processes to improve workflow efficiency.",
+            "details":[
+                {
+                    "head":"File Upload Integration",
+                    "desc": "Designed and implemented a secure file upload process that allowed users to attach documents to their applications. This involved developing a Java backend service to scan uploaded files using an antivirus API, ensuring all submissions were clean before storage."
+                },
+                {
+                    "head":"Full-stack coordination",
+                    "desc": "Utilized JavaScript to capture and transmit file data from the frontend, and Java to handle server-side processing. Ensured seamless communication between client-side inputs and backend validation services."
+                },
+                {
+                    "head": "Secure Data Storage",
+                    "desc": "Successfully integrated Oracle DB for storing sanitized user files, allowing business users to view submitted documents in an organized, searchable interface."
+                },
+                {
+                    "head": "Process Improvement",
+                    "desc": "Streamlined the application workflow for both customers and internal users, reducing processing time while enhancing security and compliance."
+                }
+            ]
         },
         {
             "title": "React based site for a Marketing Company ",
             "skills": ["Front-end", "React", "SCSS", "GraphQL"],
-            "description": "Creating a website for a marketing company, leveraging SCSS and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users."
+            "description": "Creating a website for a marketing company, leveraging React, SCSS, and GraphQL to deliver a performant and user-friendly experience. The focus was on developing dynamic content management features and optimizing site performance for both technical and non-technical users.",
+            "details": [
+                {
+                    "head": "Search and Navigation Architecture",
+                    "desc": "Designed and implemented advanced search and navigation components to optimize Oracle GraphQL content queries. The search service allowed users to locate published assets with text search and filter options, while the dynamic menu displayed navigation items and layouts based on curated content assigned to pages."
+                },
+                {
+                    "head": "Dynamic Components",
+                    "desc": "Built reusable header and footer navigation components that streamlined usability for business users by dynamically displaying curated assets from the content team."
+                },
+                {
+                    "head": "Performance Optimization",
+                    "desc": "Utilized Oracle APIs to enable static publishing of site content, improving page load times and enhancing the overall user experience. Refactored code post-launch to further optimize site responsiveness and ensure faster access to web content."
+                },
+                {
+                    "head":"Streamlined Deployment",
+                    "desc": "Leveraged Oracle VBS pipelines to efficiently deploy static content using automated build pipelines, ensuring smooth production rollouts and a reliable website experience."
+                }
+                ]
         },
         {
             "title": "Document Migration for a Tool Manufacturing Company",
             "skills": ["Back-end", "Java", "Microsoft SQL Server", "Cloud SSO Configuration"],
-            "description": "This project involved designing and implementing a backend solution to migrate and organize archived documents for a tool manufacturing company. The goal was to transition files from an outdated system to a new Oracle WebCenter Content instance while optimizing the import and sorting process. Set up single sign on with Microsoft Entra"
+            "description": "This project involved designing and implementing a backend solution to migrate and organize archived documents for a tool manufacturing company. The goal was to transition files from an outdated system to a new Oracle WebCenter Content instance while optimizing the import and sorting process. Set up single sign on with Microsoft Entra.",
+            "details": [
+                {
+                    "head": "Custom Batch Loaders",
+                    "desc": "Developed custom batch loaders in Java to efficiently import archived documents, categorizing them by department to ensure logical organization and ease of access."
+                },
+                {
+                    "head": "Performance Optimization",
+                    "desc": "Utilized sorting algorithms to achieve optimal import speeds, significantly reducing migration time and improving system efficiency."
+                },
+                {
+                    "head":"System Migration",
+                    "desc": "Successfully migrated files from the legacy system to Oracle WebCenter Content, ensuring data integrity and seamless integration into the new system."
+                },
+                {
+                    "head":"Database Integration",
+                    "desc": "Worked extensively with MSSQL to manage document metadata and ensure accurate data mapping throughout the migration process."
+                }
+            ]
         }
     ]
 }
