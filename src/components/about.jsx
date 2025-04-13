@@ -45,7 +45,7 @@ export default function About(){
                         Software Consultant I 		
                     </span>
                     <span className='mb-2'>
-                        Responsibilities: Develop, integrate, and customize software utililizing development technologies such as Java, Javascript, SQL, and relational databases. Implement solutions within client's architectural environments. 
+                        Responsibilities: Develop, integrate, and customize software utilizing development technologies such as Java, JavaScript, SQL, and relational databases. Implement solutions within client's architectural environments. 
                     </span>
                 </div>
             </div>

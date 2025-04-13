@@ -1,7 +1,7 @@
 {
     "languages": [
-        "Javascript",
-        "Typescript",
+        "JavaScript",
+        "TypeScript",
         "Java",
         "Python",
         "C++",
@@ -51,6 +51,7 @@
         "RestAPI",
         "Apollo",
         "Jest",
+        "JUnit",
         "Docker",
         "Postman",
         "Jira",
