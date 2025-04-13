@@ -42,7 +42,7 @@ export default function About(){
                         June 2022 - Present  
                      </span>
                     <span>
-                        Software Consultant I 		
+                        Software Consultant	
                     </span>
                     <span className='mb-2'>
                         Responsibilities: Develop, integrate, and customize software utilizing development technologies such as Java, JavaScript, SQL, and relational databases. Implement solutions within client's architectural environments. 
