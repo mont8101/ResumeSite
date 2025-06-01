@@ -16,13 +16,13 @@ function App() {
       <div className='mb-20 flex justify-center'>
         <Hero></Hero>
       </div>
-      <div className='mb-10 flex justify-center' >
+      <div className='mb-10 flex justify-center'>
         <About></About>
       </div>
-      <div className='mb-10 flex justify-center' >
+      <div className='mb-10 flex justify-center'>
         <Skills></Skills>
       </div>
-      <div className='mb-10 flex justify-center' >
+      <div className='mb-10 flex justify-center'>
         <Certs></Certs>
       </div>
       <div className='mb-10 flex justify-center'>

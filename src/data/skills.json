@@ -5,8 +5,8 @@
         "Java",
         "Python",
         "C++",
-        "PHP",
-        "C"
+        "C",
+        "PHP"
     ],
     "frameworks": [
         "React",

@@ -9,7 +9,7 @@ export default function Projects(){
     };
 
     return(
-        <div id='Projects' className='flex flex-col justify-center items-center'>
+        <div id='Projects' className='flex flex-col justify-center items-center w-full'>
             <span className='text-white font-extrabold text-5xl mb-8 text-center'>Recent Projects</span>
             <div className='grid grid-cols-1 md:max-w-3/5 px-4 md:px-0'>
                 {projects.map((project) =>(
